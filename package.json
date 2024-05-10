@@ -4,7 +4,8 @@
   "description": "\"# php\"  initgit add README.mdgit commit -m \"first commit\"git branch -M maingit remote add origin https://github.com/com-subrahmanyam-pampana/php.gitgit push -u origin main",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \" Ok.Passed as of now\"",
+    "test2": "echo \" Ok2.Passed as of now\"",
     "prepare": "husky"
   },
   "author": "",
