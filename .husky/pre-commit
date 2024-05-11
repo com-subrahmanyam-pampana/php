@@ -17,7 +17,7 @@
 if [[ "$OSTYPE" == darwin* || "$OSTYPE" == linux* || "$OSTYPE" == linux-gnu* || "$OSTYPE" == linux-gnu* ]]; then
     AUDIT_LEVEL=low npm run audit
 elif [[ "$OSTYPE" == msys* ]]; then
-     AUDIT_LEVEL=low npm run audit
+    AUDIT_LEVEL=low npm run audit
 else
      AUDIT_LEVEL=low npm run audit
 fi
