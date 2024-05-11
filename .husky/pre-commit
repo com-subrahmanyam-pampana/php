@@ -1,5 +1,6 @@
 
-if [ [ "$OSTYPE" == "linux-gnu"* ] ]
+
+if ["$OSTYPE" == "linux-gnu"*]
 echo 'hi'
 then
     exit 0
