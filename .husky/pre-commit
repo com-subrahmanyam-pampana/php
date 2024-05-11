@@ -12,7 +12,7 @@
 # esac
 
 
-if [[ "$OSTYPE" == "2" || "$OSTYPE" == "3" ]]; then
+if [[ "$OSTYPE" == "solaris*" || "$OSTYPE" == "linux*" ]]; then
 echo 'hi'
 fi
 
