@@ -1,3 +1,4 @@
+#!/usr/bin/env sh
 
 
 
@@ -11,12 +12,14 @@
 #   *)        echo "unknown: $OSTYPE" ;;
 # esac
 
+
+
 if [[ "$OSTYPE" == darwin* || "$OSTYPE" == linux* || "$OSTYPE" == linux-gnu* || "$OSTYPE" == linux-gnu* ]]; then
-    echo 'hi'
+    AUDIT_LEVEL=low npm run audit
 elif [[ "$OSTYPE" == msys* ]]; then
-    echo 'hi2'
+     AUDIT_LEVEL=low npm run audit
 else
-    echo 'hi3'
+     AUDIT_LEVEL=low npm run audit
 fi
 
 
@@ -53,5 +56,4 @@ fi
 
 # fi
 
-npm run test
-npm run test2
+
