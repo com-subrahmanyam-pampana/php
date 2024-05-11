@@ -4,7 +4,7 @@
   "description": "\"# php\"  initgit add README.mdgit commit -m \"first commit\"git branch -M maingit remote add origin https://github.com/com-subrahmanyam-pampana/php.gitgit push -u origin main",
   "main": "index.js",
   "scripts": {
-    "audit": "echo \" Ok.Passed as of now\"",
+    "audit": "npm audit --audit-level=${AUDIT_LEVEL:-low}",
     "prepare": "husky"
   },
   "author": "",
