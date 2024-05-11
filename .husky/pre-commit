@@ -1,5 +1,6 @@
 
-if [ 0 == 0 ]
+if [ [ "$OSTYPE" == "linux-gnu"* ] ]
+echo 'hi'
 then
     exit 0
 fi
