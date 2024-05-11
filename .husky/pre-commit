@@ -12,7 +12,7 @@
 # esac
 
 
-if ["$OSTYPE"=="linux-gnu*"]
+if ["$OSTYPE"=="linux-gnu"]
 then
  echo 'hi'
     exit 0
