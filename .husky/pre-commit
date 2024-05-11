@@ -11,8 +11,6 @@
 #   *)        echo "unknown: $OSTYPE" ;;
 # esac
 
-
-
 if [[ "$OSTYPE" == darwin* || "$OSTYPE" == linux* || "$OSTYPE" == linux-gnu* || "$OSTYPE" == linux-gnu* ]]; then
     echo 'hi'
 elif [[ "$OSTYPE" == msys* ]]; then
