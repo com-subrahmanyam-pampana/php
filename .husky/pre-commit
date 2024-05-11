@@ -14,7 +14,7 @@
 
 if [[ "$OSTYPE" == solaris* || "$OSTYPE" == linux* ]]; then
     echo 'hi'
-elif [ "$OSTYPE" == solaris* || "$OSTYPE" == linux* ]; then
+elif [ "$OSTYPE" == msys*]; then
     echo 'hi2'
 else
     echo 'hi3'
