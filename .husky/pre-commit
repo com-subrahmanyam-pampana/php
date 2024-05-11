@@ -12,11 +12,15 @@
 # esac
 
 
-if [["$OSTYPE"=="linux-gnu"]]
-then
- echo 'hi'
-    exit 0
+if [[ "$OSTYPE" == "2" || "$OSTYPE" == "3" ]]; then
+echo 'hi'
 fi
+
+# if [["$OSTYPE"=="linux-gnu"]]
+# then
+#  echo 'hi'
+#     exit 0
+# fi
 
 # if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 
