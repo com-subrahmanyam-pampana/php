@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "\"# php\"  initgit add README.mdgit commit -m \"first commit\"git branch -M maingit remote add origin https://github.com/com-subrahmanyam-pampana/php.gitgit push -u origin main",
   "main": "index.js",
+  "config": {
+    "npm-audit-level": "low"
+  },
+
   "scripts": {
-    "audit": "npm audit --audit-level=${AUDIT_LEVEL:-low}",
-    "prepare": "husky"
+    "audit": "npm audit --audit-level=none",
+    "prepare": "husky",
+    "test": "echo $loglevel"
   },
   "author": "",
   "license": "ISC",
