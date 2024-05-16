@@ -7,7 +7,7 @@
     "npm-audit-level": "low"
   },
   "scripts": {
-    "audit": "npm audit --audit-level=none",
+    "audit": "npm audit --audit-level=${AUDIT_LEVEL:-low} ",
     "prepare": "husky",
     "test": "echo $loglevel"
   },
